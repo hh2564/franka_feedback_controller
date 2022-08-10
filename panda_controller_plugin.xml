@@ -1,0 +1,9 @@
+<library path="lib/libfranka_feedback_controller">
+  <class name="franka_feedback_controller/FeedbackController"
+         type="franka_feedback_controller::FeedbackController"
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      Feedback controller for Franka 
+    </description>
+  </class>
+</library>
