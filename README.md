@@ -16,6 +16,8 @@ You can go to the their official website to find more instruction on installing 
 For feedback controller approach, we implemented a PD controller: desired joint velocity is proportional to joint position error $\theta_e=\theta_d-\theta$ and joint velocity error $\dot\theta_e=\dot\theta_d-\dot\theta$, where $\theta_d$ and $\theta$ are the desired and measured joint position, and $\dot\theta_d$ and $\dot\theta$ are the desired and measured joint velocity respectively. 
 
 We can obtain the desired joint toque $\tau_{feedback}$:
+
+
 $$\begin{align}
 \tau_{feedback} = K_p\theta_e+K_d\dot\theta_e+G(\theta)
 \end{align}$$
