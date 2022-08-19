@@ -1,4 +1,4 @@
-# Franka Effort Controller
+# Franka Feedback Controller
 # Package Description
 This is a ROS PD feedback controller package to control Franka Emika Panda arm in Gazebo simulation environment.
 
@@ -23,3 +23,9 @@ $$\begin{align}
 \end{align}$$
 
 Whereas $K_p$ and $K_d$ are the appropriate p-gain and d-gain, and $G(\theta)$ is gravity compensation. 
+
+# Run Controller 
+To run the feedback controller in Gazebo simulation, run the following code in command line: 
+```
+roslaunch franka_feedback_controller franka.launch
+```
